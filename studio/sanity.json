@@ -5,7 +5,7 @@
     "dataset": "production"
   },
   "project": {
-    "name": "R-Speed Motors"
+    "name": "DEMT"
   },
   "plugins": [
     "@sanity/base",

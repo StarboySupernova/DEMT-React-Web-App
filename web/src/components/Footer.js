@@ -12,7 +12,14 @@ function Footer() {
       <div className="container">
         <Logo />
         <ParagraphText className="footer__text">
-        "Thank you for choosing R-Speed Motors, where your automotive journey is our top priority. Experience excellence in car repair services, meticulous diagnostics, and collaborative solutions. Elevate your driving experience with skilled mechanics, advanced technology, and comprehensive vehicle care. Connect with us for seamless automotive solutions, and explore the road with confidence. Your satisfaction is at the core of our service. Choose R-Speed Motors – Your pathway to a reliable and well-maintained vehicles."
+          "Thank you for choosing DEMT, where your automotive journey is our top
+          priority. Experience excellence in car repair services, meticulous
+          diagnostics, and collaborative solutions. Elevate your driving
+          experience with skilled mechanics, advanced technology, and
+          comprehensive vehicle care. Connect with us for seamless automotive
+          solutions, and explore the road with confidence. Your satisfaction is
+          at the core of our service. Choose DEMT – Your pathway to a reliable
+          and well-maintained vehicles."
         </ParagraphText>
         <ul className="footer__menuList">
           {menu.map((item) => (
@@ -29,11 +36,10 @@ function Footer() {
           ))}
         </ul>
         <ParagraphText className="copyright">
-        4 Spoor Ave, Kempton Park West, Kempton Park, 1619, South Africa
+          4 Spoor Ave, Kempton Park West, Kempton Park, 1619, South Africa
         </ParagraphText>
         <ParagraphText className="copyright">
-          © R-Speed Motors (PTY) LTD |{' '}
-          {new Date().getFullYear()}| All rights reserved
+          © DEMT (PTY) LTD | {new Date().getFullYear()}| All rights reserved
         </ParagraphText>
       </div>
     </FooterStyles>

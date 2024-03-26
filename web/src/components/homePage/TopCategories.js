@@ -2,7 +2,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import { TopCategoriesStyles } from '../../styles/homePage/TopCategoriesStyles';
 // import CategoryGrid from '../category/CategoryGrid';
-import ServiceGrid from '../category/ServiceGrid';
+import ActivityGrid from '../category/ActivityGrid';
 import ParagraphText from '../typography/ParagraphText';
 import { SectionTitle } from '../typography/Title';
 
@@ -11,7 +11,7 @@ function TopCategories() {
     {
       allSanitySpotlight(filter: { _id: { eq: "spotlightItems" } }) {
         nodes {
-          category {
+          activity {
             id
             title
             slug {
@@ -23,14 +23,14 @@ function TopCategories() {
       }
     }
   `);
-  const services = data.allSanitySpotlight.nodes[0].category;
+  const activities = data.allSanitySpotlight.nodes[0].activity;
   return (
     <TopCategoriesStyles>
-      <SectionTitle>Top Categories</SectionTitle>
+      <SectionTitle>Top Activities</SectionTitle>
       <ParagraphText>
-        Explore Automotive Excellence: Your journey begins here with us
+        Explore Internet Excellence: Your journey begins here with us
       </ParagraphText>
-      <ServiceGrid services={services} />
+      <ActivityGrid activities={activities} />
     </TopCategoriesStyles>
   );
 }

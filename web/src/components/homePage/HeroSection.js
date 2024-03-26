@@ -12,9 +12,9 @@ function HeroSection() {
       <div className="container">
         <div className="hero__wrapper">
           <div className="left">
-            <h1 className="hero__heading">R-Speed Motors</h1>
+            <h1 className="hero__heading">DEMT</h1>
             <ParagraphText className="hero__text">
-            "Your Pathway to Automotive Excellence. Explore swift and reliable car repair services, exceptional customer care, diagnostic solutions, collaborative expertise, and proficient technical support at R-Speed Motors."
+            "Your Pathway to Automotive Excellence. Explore swift and reliable car repair services, exceptional customer care, diagnostic solutions, collaborative expertise, and proficient technical support at DEMT."
             </ParagraphText>
             <SectionTitle>Our Expertise</SectionTitle>
             <ParagraphText className="hero__text">
@@ -34,7 +34,7 @@ function HeroSection() {
             <StaticImage
               className="hero__image"
               src="../../images/VR.jpg"
-              alt="R-Speed Motors hero image"
+              alt="DEMT hero image"
               placeholder="blurred"
               objectPosition="50% 30%"
             />

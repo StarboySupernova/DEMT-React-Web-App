@@ -37,7 +37,7 @@ function FeaturedBlogs() {
   const spotlightBlogs = data.allSanitySpotlight.nodes[0].blogs;
   return (
     <FeaturedBlogsStyles>
-      <SectionTitle>Latest from R-Speed Motors</SectionTitle>
+      <SectionTitle>Latest from DEMT</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
         Check Out our most recent discounts and specials today
       </ParagraphText>

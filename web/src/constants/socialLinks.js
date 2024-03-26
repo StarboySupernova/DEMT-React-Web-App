@@ -24,28 +24,28 @@ export const socialLinks = [
   {
     name: 'whatsapp',
     url: `https://wa.me/27786647721?text=${encodeURIComponent(
-      'I would like to chat to an available R-Speed Motors Representative'
+      'I would like to chat to an available DEMT Representative'
     )}`,
     icon: <FaWhatsappSquare />,
   },
   {
     name: 'facebook',
-    url: 'https://www.facebook.com/R-Speed Motors/',
+    url: 'https://www.facebook.com/DEMT/',
     icon: <FaFacebook />,
   },
   {
     name: 'twitter',
-    url: 'https://twitter.com/R-Speed Motors',
+    url: 'https://twitter.com/DEMT',
     icon: <FaTwitter />,
   },
   {
     name: 'Apple',
-    url: 'https://www.apple.com/R-Speed Motors',
+    url: 'https://www.apple.com/DEMT',
     icon: <DiApple />,
   },
   {
     name: 'Android',
-    url: 'https://www.play.google.com/R-Speed Motors',
+    url: 'https://www.play.google.com/DEMT',
     icon: <FcAndroidOs />,
   },
 ];
